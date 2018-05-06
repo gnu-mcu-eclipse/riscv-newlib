@@ -6,7 +6,10 @@ gloss_hdrs = \
 	machine/syscall.h \
 
 gloss_srcs = \
+	sleep.c \
+	usleep.c \
 	nanosleep.c \
+	clock_gettime.c \
 	sys_access.c \
 	sys_chdir.c \
 	sys_chmod.c \
